@@ -6,9 +6,9 @@
 #include "iotmakers.h"
 #include <softPwm.h>
 
-#define Servo 1
-#define Trig 0
-#define Echo 2
+#define Servo 1 //gpio18
+#define Trig 0 //gpio17
+#define Echo 2 //gpio27
 
 
 static int local_loop = (0);
